@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/orderlist"
+        android:layout_width="620px"
+        android:layout_height="330px"
+        android:layout_x="200px"
+        android:layout_y="200dp">
+    </ListView>
+    
+    <ImageButton 
+        android:id="@+id/SendOrder"
+        android:layout_width="wrap_content"
+        android:background="@drawable/sendorder_button"
+        android:layout_height="wrap_content"
+        android:layout_x="630px"
+        android:layout_y="620px"/>
+    <Button 
+        android:id ="@+id/BackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_x="500px"
+        android:layout_y="630px"/>
+    
+</AbsoluteLayout>

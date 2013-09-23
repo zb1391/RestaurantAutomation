@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Please Select an Item from the Menu</string>
+    <string name="hello1">LOADING...</string>
+    <string name="app_name">MenuTest1</string>
+
+</resources>

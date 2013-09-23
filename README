@@ -1,0 +1,5 @@
+This is my Software Engineer Project - Restaurant Automation.
+
+The purpose of this project was to somehow computerize the restaurant industry. My team and I decided to make an Android Tablet Application to replace a traditional menu. This included designing a server to not only store all items on the menu, but also a database to store all orders for chefs to complete. We created a java application for the chef to view all incomplete orders in the database, and gave options for the chef to provide real time updates on the status of the customer's order right to the tablet.
+
+Included in this repository is all of the android code associated with our Restaurant Automation project. Unfortunately this project was hardcoded to the ip address of my computer, which acted as our primary server, so this app is not very interactive without my computer. I included two pdf files as well. FinalReport.pdf is our final report for the course which has the project proposal, use cases etc. UserInterface.pdf is an exerpt from our final report and displays the flow of our application.

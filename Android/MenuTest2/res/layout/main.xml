@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+	
+	<ImageButton
+	    android:id="@+id/Appetizer"
+	    android:background="@drawable/appetizer_button"
+	    android:layout_x="7dp"
+	    android:layout_y="7dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    >
+	</ImageButton>
+	
+	<ImageButton
+	    android:id="@+id/Dessert"
+	    android:background="@drawable/dessert_button"
+	    android:layout_x="90dp"
+	    android:layout_y="7dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    >
+	</ImageButton>
+	
+	    
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="350dp"
+        android:layout_height="320dp"
+        android:layout_x="40dp"
+        android:layout_y="320dp">
+    </ListView>
+    
+     
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:textSize="20dp"
+        android:text="@string/hello" 
+        android:layout_x="470dp"
+        android:layout_y="325dp"
+        android:scrollbars = "vertical"
+        android:textColor="@android:color/secondary_text_dark_nodisable"/>
+    
+    <TextView 
+        android:id="@+id/ChefNotesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="475dp"
+        android:layout_y="450dp"
+        android:text="Notes for Chef"
+        android:textSize="16dp"/>
+       
+    <EditText
+        android:id="@+id/ChefNotes"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_x="470dp"  
+        android:layout_y="470dp"/>
+    <ListView 
+        android:id="@+id/sideslist"
+        android:layout_x="630dp"
+        android:layout_y="475dp"
+        android:layout_width="200dp"
+        android:layout_height="165dp"/>
+    <TextView
+        android:id="@+id/curside"
+        android:layout_x="630dp"
+        android:layout_y="450dp"
+        android:text="Select a Side"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+     <TextView
+         android:id="@+id/selectedside"
+         android:layout_x="840dp"
+         android:layout_y="540dp"
+         android:text="Side:"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+ 	 <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text = "Price: $00.00"
+        android:layout_x="840dp"
+        android:layout_y="560dp"/>
+    <Button 
+        android:id="@+id/AddOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add To Order"
+        android:layout_x="885dp"
+        android:layout_y="590dp"/>
+    <Button
+        android:id = "@+id/ConfirmOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="850dp"
+        android:layout_y="10dp"
+        android:text="Confirm Order"/>
+</AbsoluteLayout>
